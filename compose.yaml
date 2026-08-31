@@ -1,0 +1,8 @@
+services:
+  floci:
+    image: floci/floci:latest
+    container_name: floci
+    ports:
+      - "4566:4566"
+    environment:
+      - AWS_DEFAULT_REGION=ap-northeast-1
